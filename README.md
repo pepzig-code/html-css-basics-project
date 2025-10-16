@@ -1,2 +1,2 @@
 # html-css-basics-project
-Little idea about Oceans
+#Checkout the Cafe Project too
