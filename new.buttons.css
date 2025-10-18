@@ -5,3 +5,7 @@ button {
     border: none;
     padding: 10px;
 }
+.hover:hover {
+    background-color: crimson;
+    border: 1px solid black;
+}
