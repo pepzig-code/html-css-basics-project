@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(6, 5, 5, 0.47);
+}
+.movies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.movie {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: aqua;
+    font-size: 2.9vh;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+    box-shadow: 2px 3px 4px black;
+    border-radius: 10px;
+}
