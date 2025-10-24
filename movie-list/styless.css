@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(28, 33, 33, 0.575);
+    max-width: 800px;
+    height: 100vh;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.movies {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.movie {
+    border: 2px solid rgba(0, 0, 0, 0.182);
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgba(94, 33, 111, 0.786);
+    box-sizing: border-box;
+    padding: 15px;
+    width: 400px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.43);
+    overflow: auto;
+    font-size: 2.9vh;
+}
+h2 {
+    color: darkorange;
+}
+@media (max-height: 768px) {
+    .movie {
+        height: auto;
+    }
+}
