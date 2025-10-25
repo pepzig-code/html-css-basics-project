@@ -1,0 +1,29 @@
+body {
+    font-family: 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f5f0;
+}
+.invitation {
+    background-color: #fff;
+    border: 2px solid gold;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: goldenrod;
+    font-size: 22px;
+}
+.names {
+    font-family: "Dancing Script", cursive;
+    font-size: 26px;
+}
+p {
+    font-size: 18px;
+    color: #5a4d3f;
+}
